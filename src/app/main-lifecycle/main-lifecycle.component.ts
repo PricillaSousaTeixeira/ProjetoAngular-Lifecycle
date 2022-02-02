@@ -12,7 +12,7 @@ export class MainLifecycleComponent implements OnInit {
   name: string ;
   age: number ;
   food: string;
-  editClient: Client = null;
+  editClient: Client;
 
   constructor() { }
 
